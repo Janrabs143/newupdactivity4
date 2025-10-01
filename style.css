@@ -1,0 +1,102 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/79/82/a3/7982a35558b9c49bc2e2d169b2ac043b.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-size-adjust: 10px;
+    background-color: darkgray;
+    color: lightgrey;
+    margin: 50px;
+    padding: 5px;
+    line-height: 1.6;
+    text-align: center;
+    opacity: 0.9;
+    
+}
+
+h1 {
+    color: rgb(47, 237, 237); 
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 1px solid #555;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Container for the main content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.quote {
+    font-size: 22px;
+    font-style: italic;
+    color: teal;
+}
+
+/* Link Styles */
+a {
+    color: cyan;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: magenta;
+    text-decoration: underline;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.hobby-list {
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.hobby-list li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+
+.artist-list {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.pics{
+    border-style: solid;
+    border-color: gray;
+    padding-top: 10px;
+}
